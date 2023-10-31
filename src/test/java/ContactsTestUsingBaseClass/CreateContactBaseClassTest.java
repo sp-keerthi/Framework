@@ -56,6 +56,6 @@ public class CreateContactBaseClassTest extends BaseClass
 	public void demo()
 	{
 		System.out.println("demo");
-		
+		System.out.println("demo executed");
 	}
 }
