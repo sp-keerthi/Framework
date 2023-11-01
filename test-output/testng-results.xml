@@ -1,17 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[clicked on contacts link]]>
+    </line>
+    <line>
+      <![CDATA[create contact look up img]]>
+    </line>
+    <line>
+      <![CDATA[Header captured]]>
+    </line>
+    <line>
+      <![CDATA[Hedder Captured]]>
+    </line>
+    <line>
+      <![CDATA[Hedder valiated]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-10-25T19:57:03 IST" name="Default suite" finished-at="2023-10-25T19:57:03 IST" duration-ms="53">
+  <suite started-at="2023-11-01T10:30:49 IST" name="Default suite" finished-at="2023-11-01T10:31:18 IST" duration-ms="28436">
     <groups>
+      <group name="ReggressionSuite">
+        <method signature="CreateContactBaseClassTest.createconntact()[pri:0, instance:ContactsTestUsingBaseClass.CreateContactBaseClassTest@2cd76f31]" name="createconntact" class="ContactsTestUsingBaseClass.CreateContactBaseClassTest"/>
+      </group> <!-- ReggressionSuite -->
+      <group name="SmokeSuite">
+        <method signature="CreateContactBaseClassTest.createconntact()[pri:0, instance:ContactsTestUsingBaseClass.CreateContactBaseClassTest@2cd76f31]" name="createconntact" class="ContactsTestUsingBaseClass.CreateContactBaseClassTest"/>
+      </group> <!-- SmokeSuite -->
     </groups>
-    <test started-at="2023-10-25T19:57:03 IST" name="Default test" finished-at="2023-10-25T19:57:03 IST" duration-ms="53">
-      <class name="Practice.ReadDataFromCMDLine">
-        <test-method signature="read()[pri:0, instance:Practice.ReadDataFromCMDLine@c730b35]" started-at="2023-10-25T19:57:03 IST" name="read" finished-at="2023-10-25T19:57:03 IST" duration-ms="10" status="PASS">
+    <test started-at="2023-11-01T10:30:49 IST" name="Default test" finished-at="2023-11-01T10:31:18 IST" duration-ms="28436">
+      <class name="ContactsTestUsingBaseClass.CreateContactBaseClassTest">
+        <test-method is-config="true" signature="bsCongig()[pri:0, instance:ContactsTestUsingBaseClass.CreateContactBaseClassTest@2cd76f31]" started-at="2023-11-01T10:30:49 IST" name="bsCongig" finished-at="2023-11-01T10:30:49 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- read -->
-      </class> <!-- Practice.ReadDataFromCMDLine -->
+        </test-method> <!-- bsCongig -->
+        <test-method is-config="true" signature="bcCongig()[pri:0, instance:ContactsTestUsingBaseClass.CreateContactBaseClassTest@2cd76f31]" started-at="2023-11-01T10:30:50 IST" name="bcCongig" finished-at="2023-11-01T10:30:55 IST" duration-ms="4834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcCongig -->
+        <test-method is-config="true" signature="bmCongig()[pri:0, instance:ContactsTestUsingBaseClass.CreateContactBaseClassTest@2cd76f31]" started-at="2023-11-01T10:30:55 IST" name="bmCongig" finished-at="2023-11-01T10:30:58 IST" duration-ms="3147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmCongig -->
+        <test-method signature="createconntact()[pri:0, instance:ContactsTestUsingBaseClass.CreateContactBaseClassTest@2cd76f31]" started-at="2023-11-01T10:30:58 IST" name="createconntact" finished-at="2023-11-01T10:31:08 IST" duration-ms="10283" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[clicked on contacts link]]>
+            </line>
+            <line>
+              <![CDATA[create contact look up img]]>
+            </line>
+            <line>
+              <![CDATA[Header captured]]>
+            </line>
+            <line>
+              <![CDATA[Hedder Captured]]>
+            </line>
+            <line>
+              <![CDATA[Hedder valiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createconntact -->
+        <test-method is-config="true" signature="AmCongig()[pri:0, instance:ContactsTestUsingBaseClass.CreateContactBaseClassTest@2cd76f31]" started-at="2023-11-01T10:31:08 IST" name="AmCongig" finished-at="2023-11-01T10:31:11 IST" duration-ms="2924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmCongig -->
+        <test-method is-config="true" signature="bmCongig()[pri:0, instance:ContactsTestUsingBaseClass.CreateContactBaseClassTest@2cd76f31]" started-at="2023-11-01T10:31:11 IST" name="bmCongig" finished-at="2023-11-01T10:31:14 IST" duration-ms="3097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmCongig -->
+        <test-method signature="demo()[pri:0, instance:ContactsTestUsingBaseClass.CreateContactBaseClassTest@2cd76f31]" started-at="2023-11-01T10:31:14 IST" name="demo" finished-at="2023-11-01T10:31:14 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method is-config="true" signature="AmCongig()[pri:0, instance:ContactsTestUsingBaseClass.CreateContactBaseClassTest@2cd76f31]" started-at="2023-11-01T10:31:14 IST" name="AmCongig" finished-at="2023-11-01T10:31:18 IST" duration-ms="3804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmCongig -->
+        <test-method is-config="true" signature="AcCongig()[pri:0, instance:ContactsTestUsingBaseClass.CreateContactBaseClassTest@2cd76f31]" started-at="2023-11-01T10:31:18 IST" name="AcCongig" finished-at="2023-11-01T10:31:18 IST" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AcCongig -->
+        <test-method is-config="true" signature="AsCongig()[pri:0, instance:ContactsTestUsingBaseClass.CreateContactBaseClassTest@2cd76f31]" started-at="2023-11-01T10:31:19 IST" name="AsCongig" finished-at="2023-11-01T10:31:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AsCongig -->
+      </class> <!-- ContactsTestUsingBaseClass.CreateContactBaseClassTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

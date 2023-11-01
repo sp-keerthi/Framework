@@ -22,6 +22,9 @@ public class AssertionPractice {
 		
 		 System.out.println("step 3");
 		System.out.println("step 4");
+		
+		
+		
 		/*if(1==1)// if else is not the corret way of validation
 		{
 			System.out.println("pass");
